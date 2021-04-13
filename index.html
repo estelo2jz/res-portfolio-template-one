@@ -8,10 +8,12 @@
         <link rel="stylesheet" href="">
         
         <!-- ===== BOX ICONS ===== -->
-        
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
         <title>Portfolio Personal Complete</title>
     </head>
@@ -21,7 +23,22 @@
         
         <!--===== HEADER =====-->
         <header class="l-header" id="header">
-            
+          <nav class="nav bd-container">
+              <a href="#" class="nav__logo">Raven</a>
+
+              <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list">
+                      <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                      <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                      <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                      <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                      <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="nav__toggle" id="nav-toggle">
+                  <box-icon name='menu' class="nav__icon" ></box-icon>
+              </div>
+          </nav>
         </header>
 
         <main class="l-main">
@@ -56,15 +73,15 @@
         </footer>
         
         <!-- ===== MIXITUP FILTER ===== -->
-        <script src=""></script>
+        <script src="./assets/js/mixitup.min.js"></script>
         
         <!-- ===== SWIPER JS ===== -->
-        <script src=""></script>
+        <script src="./assets/js/swiper-bundle.min.js"></script>
         
         <!-- ===== GSAP ===== -->
-        <script src=""></script>
+        <script src="./assets/js/gsap.min.js"></script>
         
         <!--===== MAIN JS =====-->
-        <script src=""></script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
