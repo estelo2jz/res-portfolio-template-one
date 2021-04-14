@@ -19,7 +19,9 @@
     </head>
     <body>
         <!--===== SCROLL TOP =====-->
-        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <box-icon type='solid' name='chevron-up' class="scrollTop__icon"></box-icon>
+        </a>
         
         <!--===== HEADER =====-->
         <header class="l-header" id="header">
@@ -28,7 +30,7 @@
 
               <div class="nav__menu" id="nav-menu">
                   <ul class="nav__list">
-                      <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                      <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                       <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                       <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                       <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
@@ -43,10 +45,52 @@
 
         <main class="l-main">
             <!--===== HOME =====-->
-            
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, My name is</span>
+                        <h1 class="home__name">Raven</h1>
+                        <span class="home__prefession">Web Developer</span>
+                        <a download="" href="./assets/pdf/Clay-Doe-Cv.pdf" class="button button-light">Download Cv</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="#" class="home__social-icon"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                        <a href="#" class="home__social-icon"><box-icon name='twitter' type='logo' ></box-icon></a>
+                        <a href="#" class="home__social-icon"><box-icon name='linkedin' type='logo' ></box-icon></a>
+                    </div>
+                    <div class="home__img">
+                        <img src="https://avatars.githubusercontent.com/u/49965889?v=4" alt="" class="" />
+                    </div>
+                </div>
+            </section>
             
             <!--===== ABOUT =====-->
-            
+            <section class="about section bd-container" id="about">
+                <span class="section-subtitle">My history</span>
+                <h2 class="section-title">About me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data bd-grid">
+                        <p class="about_-description"><span>Hello, I am <br> </span>
+                          Freelance web devleoper where i deisgn ans build responsive web applications
+                        </p>
+    
+                        <div>
+                            <span class="about__number">05</span>
+                            <span class="about__achievement">Years of Experience</span>
+                        </div>
+                        <div>
+                            <span class="about__number">24+</span>
+                            <span class="about__achievement">Projects competes</span>
+                        </div>
+                        <div>
+                            <span class="about__number">07</span>
+                            <span class="about__achievement">Best work awards</span>
+                        </div>
+                    </div>
+                    <img src="https://avatars.githubusercontent.com/u/49965889?v=4" alt="" class="about__img" />
+                </div>
+            </section>
 
             <!--===== QUALIFICATION =====-->
             
